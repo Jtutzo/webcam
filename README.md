@@ -1,6 +1,6 @@
 # WebcamJs
 
-> WebcamJs is module for use webcam in browser
+> Webcam module for use this in browser
 
 ## Build Setup
 
@@ -53,3 +53,4 @@ List of shortcut methods:
  * `start()`
  * `stop()`
  * `takePicture(callback)`
+

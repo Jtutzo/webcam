@@ -7,7 +7,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, './dist'),
 		publicPath: '/dist/',
-		filename: 'main.js'
+		filename: 'webcam.min.js'
 	},
 	module: {
 		rules: [
