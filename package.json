@@ -1,6 +1,6 @@
 {
-	"name": "Webcamjs",
-	"description": "Webcamjs module",
+	"name": "Webcam",
+	"description": "Webcam module",
 	"version": "1.0.0",
 	"author": "Jérémy TUTZO <jeremy.tutzo@amj-groupe.com>",
 	"private": true,
