@@ -54,3 +54,35 @@ List of shortcut methods:
  * `stop()`
  * `takePicture(callback)`
 
+### Webcam.init(config, callback)
+Init webcam stream
+
+| Property       | Type  | Description  |
+| -------------- |:-----:|:-------------|
+| config	     |`object`|	Object to config webcam stream			|
+| callback	     |`function(err)`| When the webcam is init				|
+
+### Webcam.start()
+Start webcam stream
+
+### Webcam.stop()
+Stop and delete webcam stream
+
+### Webcam.takePicture(callback)
+Take picture with webcam
+
+| Property       | Type  | Description  |
+| -------------- |:-----:|:-------------|
+| callback	     |`function(err, src)`|When a picture is taked|
+
+## config
+It's object to configure webcam stream
+
+| Property       | Type  | Description  |
+| -------------- |:-----:|:-------------|
+| name	     |`string`|Name of webcam|
+| width	     |`number`|Width of webcam container|
+| heght	     |`number`|Height of webcam container|
+| selector	     |`string` or `$selector`|Selector or container webcam|
+| media.video	     |`boolean`|Active video|
+| media.audio	     |`boolean`|Active audio|
