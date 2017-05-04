@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Jérémy TUTZO <jeremy.tutzo@amj-groupe.com>",
 	"private": true,
-	"main": "./dist/main.js",
+	"main": "./src/main.js",
 	"scripts": {
 		"build": "webpack --progress --hide-modules"
 	},
