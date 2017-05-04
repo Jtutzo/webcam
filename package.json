@@ -1,0 +1,23 @@
+{
+	"name": "Webcamjs",
+	"description": "Webcamjs module",
+	"version": "1.0.0",
+	"author": "Jérémy TUTZO <jeremy.tutzo@amj-groupe.com>",
+	"private": true,
+	"main": "./dist/main.js",
+	"scripts": {
+		"build": "webpack --progress --hide-modules"
+	},
+	"dependencies": {
+		"jquery": "^3.2.1",
+		"underscore": "^1.8.3"
+	},
+	"devDependencies": {
+		"babel-core": "^6.0.0",
+		"babel-loader": "^6.0.0",
+		"babel-preset-latest": "^6.0.0",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"uglifyjs-webpack-plugin": "^0.4.3",
+		"webpack": "^2.2.0"
+	}
+}
