@@ -11,6 +11,18 @@ npm install
 # build for production with minification
 npm run build
 ```
+## Get start
+
+With EJ6
+```js
+import Webcam from 'webcam'
+```
+
+or 
+
+```js
+<script src="./webcam/dist/webcam.min.js"></script>
+```
 
 ## Exemple
 ```js
